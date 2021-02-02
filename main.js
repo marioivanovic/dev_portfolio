@@ -99,10 +99,27 @@ function scrollSection(id) {
 }
 
 
-// ANIMATION ON SCROLL 
+// CALL TO ACTION MAIL
 
-// AOS.init({
-//     easing: 'ease',
-//     duration: 1800,
-//     once: true
-// });
+
+
+// BACK TO TOP BUTTON  
+
+var buttonTop = document.getElementById('topbtn');
+
+window.onscroll = function () { scrollFunction() };
+
+function scrollFunction() {
+    if (document.body.scrollTop > 1500 || document.documentElement.scrollTop > 1500) {
+        buttonTop.style.display = "block";
+    } else {
+        buttonTop.style.display = "none";
+    }
+}
+
+function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+}
+
+        
