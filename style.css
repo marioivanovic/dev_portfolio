@@ -115,6 +115,7 @@ li {
 .burger {
     display: none;
     cursor: pointer;
+    overflow: hidden;
 }
 
 /* END HEADER */
@@ -123,7 +124,7 @@ li {
 
 .presentation {
     height: 180vh;
-    background: #333 url(../img/portrait1.jpg) center / cover no-repeat; 
+    background: url(../img/portrait1.jpg) center / cover no-repeat; 
 
     /* background-size: cover;
     background-repeat: no-repeat;
@@ -619,6 +620,7 @@ footer p {
 
     .nav-list {
         position: absolute;
+        overflow: hidden;
         right: 0;
         height: 50vh;
         top: 5vh;
