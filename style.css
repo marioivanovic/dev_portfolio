@@ -219,6 +219,19 @@ li {
     width: 30px;
 }
 
+.fa-github{
+    color: #0a0a0a
+}
+
+.fa-instagram{
+    color: #0a0a0a;
+}
+
+.fa-linkedin{
+    color: #0072b1;
+}
+
+
 .contact {
     width: 150px;
     margin: 10px;
