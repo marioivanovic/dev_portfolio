@@ -45,58 +45,34 @@ window.onload = appele();
 
 // Menu burger
 
-const navb = () => {
+// const navb = () => {
 
-    const btnresponsive = document.querySelector('.burger');
+//     const btnresponsive = document.querySelector('.burger');
 
-    const nav = document.querySelector('.nav-list');
+//     const nav = document.querySelector('.nav-list');
 
-    const Navlinks = document.querySelectorAll('.nav-list li');
+//     const Navlinks = document.querySelectorAll('.nav-list li');
 
-    btnresponsive.addEventListener('click', () => {
-        // lancer l'animation //
+//     btnresponsive.addEventListener('click', () => {
+//         // lancer l'animation //
 
-        btnresponsive.classList.toggle('active');
-        nav.classList.toggle('nav-active');
-    });
+//         btnresponsive.classList.toggle('active');
+//         nav.classList.toggle('nav-active');
+//     });
 
-}
+// }
 
-navb();
+// navb();
 
-// SMOOTH SCROLLING 
-
-const anchorTag = document.querySelectorAll('ul li a');
-const navItems = [...anchorTag];
-
-for (const navItem of navItems) {
-    navItem.addEventListener('click', (e) => {
-        e.preventDefault();
-        // console.log(e.target.getAttribute('href'));
-
-        scrollSection(e.target.getAttribute('href'));
-    })
-}
-
-function scrollSection(id) {
-    let sectionPosition, sectionOffset;
-
-    const navigation = document.querySelector('.nav-list').offsetHeight;
-
-    if (id !== "#") {
-        sectionOffset = document.querySelector(id).offsetTop;
-        sectionPosition = sectionOffset - navigation;
+/* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+      x.className += " responsive";
     } else {
-        sectionPosition = 0;
+      x.className = "topnav";
     }
-
-
-    window.scrollTo({
-        top: sectionPosition,
-        left: 0,
-        behavior: "smooth"
-    });
-}
+  }
 
 
 // CALL TO ACTION MAIL
