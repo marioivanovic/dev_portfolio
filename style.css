@@ -125,7 +125,7 @@ p {
 .about-heading {
     text-align: center;
     text-transform: uppercase;
-    line-height: 0;
+    line-height: 1;
     margin-bottom: 6rem;
 }
 
@@ -226,13 +226,13 @@ p {
 .competences-heading {
     text-align: center;
     text-transform: uppercase;
-    line-height: 0;
+    line-height: 1;
     margin-bottom: 6rem;
 }
 
 .competences-heading h1 {
     font-size: 10rem;
-    opacity: .3;
+    opacity: .1;
 }
 
 .competences-heading h4 {
@@ -372,7 +372,7 @@ p {
 .experiences-heading {
     text-align: center;
     text-transform: uppercase;
-    line-height: 0;
+    line-height: 1;
     margin-bottom: 6rem;
 }
 
@@ -501,8 +501,8 @@ p {
 .portfolio-heading {
     text-align: center;
     text-transform: uppercase;
-    line-height: 0;
-    margin-bottom: 6rem;
+    line-height: 1;
+    margin-bottom: 14rem;
     height: 20px;
 }
 
