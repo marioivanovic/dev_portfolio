@@ -812,6 +812,11 @@ footer p {
 
     /* TIMELINE */
 
+    .timeline{
+        width: 65%;
+        margin-left: 63px;
+    }
+
     .timeline ul {
         border-left: 4px solid #ff1500;
         border-radius: .8rem;
@@ -836,6 +841,7 @@ footer p {
     .timeline .date {
         border-bottom: 4px solid rgba(255, 255, 255, 0.9);
         width: 200px;
+        margin-left: 38px;
         margin-bottom: 1rem;
         padding-bottom: 1rem;
         position: relative;
