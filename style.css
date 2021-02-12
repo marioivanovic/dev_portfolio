@@ -627,12 +627,9 @@ footer p {
 
     .social-media li {
         height: 40px;
+        margin: 2rem;
     }
 
-    .social-media ul {
-        flex-direction: column;
-    
-    }
 
 
     /* COMPETENCES */
