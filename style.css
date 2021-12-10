@@ -36,50 +36,11 @@ p {
 
 /* END GLOBAL */
 
-/* BACK TO TOP BUTTON */
-
-/* .up {
-    height: 5rem;
-    width: 5rem;
-    position: fixed;
-    bottom: 20px;
-    right: 5rem;
-    z-index: 99;
-    border: 1px solid #000000;
-    border-radius: 50%;
-    cursor: pointer;
-    font-size: 4rem;
-    align-content: center;
-    justify-content: center;
-    animation: pulse 1s infinite;
-    padding: 5px 0 0 12px;
-    margin: 0 0 0 ;
-    background: blue;
-}
-
-
-@keyframes pulse {
-    0%{
-        box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.99);
-    }
-    70%{
-        box-shadow: 0 0 0 2rem rgba(0, 0, 0, 0);
-    }
-    100%{
-        box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
-    }
-
-} */
-
 /* LANDING TEXT */
 
 .presentation {
     height: 180vh;
     background: url(../img/portrait1.jpg) center / cover no-repeat;
-
-    /* background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center; */
 }
 
 .landing-text {
@@ -682,7 +643,6 @@ footer p {
     }
 
     .skills {
-        /* margin: 100px; */
         display: flex;
         flex-wrap: wrap;
         flex-direction: row;
@@ -692,7 +652,6 @@ footer p {
         width: 100%;
         height: 5px;
         display: block;
-        /* margin: 10px; */
         position: relative;
         border-radius: 10px;
         font-size: 1.5rem;
@@ -795,7 +754,6 @@ footer p {
 
     .container-experiences h4 {
         font-size: 1.5rem;
-        /* padding-left: 100px; */
     }
 
     .experiences-heading {
@@ -943,16 +901,10 @@ footer p {
         margin: 10px -1px 10px 10px;
     }
 
-    /* .portfolio-img {
-        height: 16px;
-        width: 16px;
-        margin-bottom: 1rem;
-    } */
 
     .img {
         height: 7rem;
         width: 7rem;
-        /* display: none; */
     }
 
 
