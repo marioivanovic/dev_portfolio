@@ -75,10 +75,6 @@ function myFunction() {
   }
 
 
-// CALL TO ACTION MAIL
-
-
-
 // BACK TO TOP BUTTON  
 
 var buttonTop = document.getElementById('topbtn');
